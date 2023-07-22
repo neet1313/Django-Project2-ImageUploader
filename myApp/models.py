@@ -1,6 +1,7 @@
 from django.db import models
 
-# Create your models here.
+# Since we're working with Images here so install pillow
+# -> pip install pillow
 
 
 class Image(models.Model):
